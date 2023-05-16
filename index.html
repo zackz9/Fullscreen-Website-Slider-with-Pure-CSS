@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fullscreen Website Slider with Pure CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="tabs">
+            <input type="radio" name="slider" id="web" checked>
+            <input type="radio" name="slider" id="graphics">
+            <input type="radio" name="slider" id="photo">
+            <div class="buttons">
+                <label for="web" ></label>
+                <label for="graphics"></label>
+                <label for="photo"></label>
+            </div>
+            <div class="content">
+                <div class="box web">
+                    <div class="contentBox">
+                        <ion-icon name="logo-wordpress"></ion-icon>
+                        <h3>Wordpress</h3>
+                        <p>WordPress (WP or WordPress.org) is a free and open-source content management system (CMS) written in hypertext preprocessor (PHP) language[4] and paired with a MySQL or MariaDB database with supported HTTPS. Features include a plugin architecture and a template system, referred to within WordPress as "Themes". </p>
+                        <button>View more</button>
+                    </div>
+                </div>
+                <div class="box graphics">
+                    <div class="contentBox">
+                        <ion-icon name="logo-laravel"></ion-icon>
+                        <h3>Laravel</h3>
+                        <p>Laravel is a free and open-source PHP web framework,[3] created by Taylor Otwell and intended for the development of web applications following the model–view–controller (MVC) architectural pattern and based on Symfony. </p>
+                        <button>View more</button>
+                    </div>
+                </div>
+                <div class="box photo">
+                    <div class="contentBox">
+                        <ion-icon name="logo-nodejs"></ion-icon>
+                        <h3>Node JS</h3>
+                        <p>Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more. Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine, and executes JavaScript code outside a web browser.
+                        </p>
+                        <button>View more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
